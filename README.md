@@ -42,8 +42,7 @@ $ npm run dev
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
-- [Next.js](https://nextjs.org/)
-- [Bootstrap](https://getbootstrap.com/)
+- [React.js](https://pt-br.reactjs.org/)
 
 ---
 
