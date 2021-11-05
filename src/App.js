@@ -1,11 +1,24 @@
 import './styles/App.css';
-import Index from './pages';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Index />
-    </div>
+    <>
+      <Router>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
