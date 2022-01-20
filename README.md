@@ -1,5 +1,7 @@
 ## Landing Page - Site de Viagens
 
+---
+
 Landing page de uma página de viagens.
 
 A ideia principal do projeto é exercitar meus conhecimento em front-end e web design, então na página eu tentei utilizar tudo o que conheço.
